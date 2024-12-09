@@ -29,7 +29,7 @@ export default function Home() {
     if (!formValue.email.includes("@") || !formValue.email.includes(".")) {
       return toast.error("Please enter a valid email");
     }
-    const response = await fetch('http://localhost:4000/waitlist', {
+    const response = await fetch('https://simesta-waitlist-server.onrender.com/waitlist', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
