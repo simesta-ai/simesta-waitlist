@@ -11,7 +11,7 @@ import { addToWaitList } from "./services";
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 4000;
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 100,
@@ -22,7 +22,7 @@ app.use(helmet());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.post('/waitlist', addToWaitList)
+app.post("/waitlist", addToWaitList);
 
 // error handler
 app.use((err, req, res, next) => {
@@ -34,7 +34,7 @@ app.use((err, req, res, next) => {
 const uri = process.env.MONGODB_URI || "";
 mongoose.connect(uri).then((db) => {
   console.log("Connected to MongoDB");
-  app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
-  });
+});
+app.listen(port, () => {
+  console.log(`Server running on port ${port}`);
 });
