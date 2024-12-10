@@ -66,7 +66,6 @@ export default function Home() {
         src={IMAGES.bg}
         width={1000}
         height={1000}
-        objectFit="cover"
       />
       {/* Header */}
       <div className={styles.header}>
