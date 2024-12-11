@@ -30,7 +30,7 @@ const addedToWatchList = (name: string, email: string) => {
           <p style="font-size: 14px; line-height: 1.6; color: #d3d3d3; margin: 15px 0;">
             You're now one step closer to revolutionizing your learning experience. Brace yourself for a thrilling adventure ahead as we prepare to launch something amazing!
           </p>
-          <a href="https://chat.whatsapp.com/SimestaAIGroupLink" style="display: inline-block; margin-top: 20px; padding: 15px 30px; font-size: 14px; font-weight: 600; color: #12032d; background: linear-gradient(135deg, #8a2be2, #ff7bac); border-radius: 50px; text-decoration: none; transition: 0.3s; box-shadow: 0 8px 20px rgba(138, 43, 226, 0.5);">
+          <a href="https://chat.whatsapp.com/DRCZDcD76G76uw4231cJwhhttps://chat.whatsapp.com/DRCZDcD76G76uw4231cJwhhttps://chat.whatsapp.com/DRCZDcD76G76uw4231cJwh" style="display: inline-block; margin-top: 20px; padding: 15px 30px; font-size: 14px; font-weight: 600; color: #12032d; background: linear-gradient(135deg, #8a2be2, #ff7bac); border-radius: 50px; text-decoration: none; transition: 0.3s; box-shadow: 0 8px 20px rgba(138, 43, 226, 0.5);">
             Join the Simesta WhatsApp Group
           </a>
         </td>
