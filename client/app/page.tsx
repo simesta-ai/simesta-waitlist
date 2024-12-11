@@ -228,10 +228,10 @@ export default function Home() {
       {/* Footer */}
       <footer className={styles.footerCon}>
         <div className={styles.socials}>
-          <Link href={"/"}>
+          <Link href={"https://x.com/SimestaAI"}>
             <XIcon className={styles.socialIcon} />
           </Link>
-          <Link href={"/"}>
+          <Link href={"https://linkedin.com/company/simesta-ai"}>
             <LinkedInIcon className={styles.socialIcon} />
           </Link>
         </div>
